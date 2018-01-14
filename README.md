@@ -2,9 +2,35 @@
 # Software projects
 ## Python
 An example of quality control software written for analyzing nanowire growth on copper cryo-electron microscopy grids.
-## C#
 
+![](https://i.imgur.com/D6P0c3J.png)
+
+As part of the manufacturing process of the novel nanowire copper grids, the grids are exposed to a chemical reaction to grow nanowires directly on the copper surface. Each individual grids is then examined under a light microscope, where the images are taken and automatically processed through this software.
+Custom image analysis code provides provides a individual score for each grid, following a machine learning step of classification into "bad" and "good" grids.
+
+
+## C#
+Software package for controlling the Spotiton robot
+ - motion control for 6 axies
+ - pneumatic control
+ - digital I/O
+ - image acquisition
+ - video analysis(for motion correction)
+ - liquid dispenser control and tuning
+ 
 ## Java
+Software package for controlling a stepper motor driven fluidic actuator
+ - capable of running up to 12 individual units simulatenously 
+ - longterm stable (>90 days)
+
+# Hardware Projects
+## Spotiton
+A novel liquid
+## Fluorescence Sensor (w/ lock-in amplification)
+
+## Algae-based Dairy Wastewater Remediation Facility
+
+## Microfluidics Hardware
 
 
 # Prerequisites
