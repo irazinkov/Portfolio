@@ -60,27 +60,53 @@ A novel liquid
 </p></details>
 
 **<details><summary>Fluorescence Sensor (w/ lock-in amplification)</summary><p>**
-
+Although fluorescence sensors are nothing new, for the project algae wastewater treamtment project shown below we needed a customizable fluorescence sensor that would be able to work in outdoor conditions. High sensitivity fluorescence microscopes required near-dark rooms for high quality imaging. Unfortunately, dark rooms are hard to find when you are in the middle of a 400 foot long pond in the desert of Southern California. To bypass this roadblock, I designed a sensor with high-frequency modulation of the excitation source, which modulated the fluorescence output, by only reading the matching frequency you would get the real-time fluorescence signal. 
+ 
  ![](https://github.com/irazinkov/Portfolio/blob/master/enclosure.PNG)
  
  ![](https://github.com/irazinkov/Portfolio/blob/master/fluor3.png)
- -
+
+ - liquid tight enclosure with customizable emission/excitation filter
+ - USB data logging
+ - high-sensitivity, signal even in direct sunlight
+ - AD630 Lock-in-Amplifier
+ 
 </p></details>
 
 **<details><summary>Bioluminescence Silicon PhotoMultiplier Sensor </summary><p>**
-
+A monitoring system the size of your average shoebox, designed to monitor the health and toxicity of water reservoirs and streams. Genetically engineered bacteria strains would respond to chemicals in the water and produce and bioilluminescence signal. We chose to go with a bioilluminescence rather than fluorsence to minimize the number of optical components. Furthermore, advent of affordable [Silicon Photomultiplier](http://sensl.com/products/) elements increased the sensitivity of the device many fold, allowing the microfluidic device to be right on top of the sensor, with only a coverslip separating the cells from sensor. I was tasked with making designing the electronics for SiPM integration, logic control, battery charging, communication and peristaltic pump control. Below is a sample of the ARM-based microcontrolled circuit design for this device.
+ 
 ![](https://github.com/irazinkov/Portfolio/blob/master/simp_due.png)
+ 
  - Silicon Photomultiplier sensor for detecting single photons emitted by bacteria cultured in microfluidics devices
- - Solar powered
+ - Solar powered 
  - Intended for use in remote water ways for water supply quality testing
- - ARM32 core from ATMEL for control of power supply, peristaltic pump, data I/O and logging
- - Transmits data through WIFI to the internet (planned to have 
+ - ARM32 core from ATMEL for control of power supply, peristaltic pump, 54 data I/O ports and data logging
+ - Transmits sensor information through long-range WiFi
 
 </p></details>
 
 **<details><summary>Algae-based Dairy Wastewater Remediation Facility</summary><p>**
+Clean energy solutions depend highly on the industry and geographic location. In sunny San Diego our approach to wastewater remediation on a dairy farm, was in form of a series of algae ponds. By controlling the geometry of each pond we could tailor the biological processes to our needs. The diary wastewater is considered is rich in posphate and nitrates (from manure) is normally stored for 90 days on site to allow the slow conversion of these chemicals. Our system utitlized extremely fast growing algae cultures that would use these chemicals as a food source, effectively cleaning the water. Furthermore, the solid waste from the dairy farm was utilized in the anaerobic digester, which provided bio-gas for electricity production. 
+ 
+![](https://github.com/irazinkov/Portfolio/blob/master/vanO-farm.jpg)
 
-![]()
+Link to the Google Maps image: [Van Ommering Dairy Farm, Lakeside CA](https://www.google.com/maps/place/Van+Ommering+Dairy+Farm/@32.8840284,-116.8731092,195m/data=!3m1!1e3!4m5!3m4!1s0x80dbe1e7f99ca189:0x3c8ca246074a6110!8m2!3d32.8817067!4d-116.870681)
+
+ - Design and construction of large-scale ponds
+ - 2 raceway ponds with 2 large paddlewheels for algae culture agitation
+ - 3 settling ponds
+ - anaerobic digester (refurbished previous install)
+ - worked with numerous construction crews to make sure timely project completion
+ 
+Due to the high cost of large parts, everything was modeled and simulated for stress, deformation and safety factors.
+
+Here is an example of the paddlewheel analysis:
+
+![](https://github.com/irazinkov/Portfolio/blob/master/Result_1_2.png)
+
+The complete report can be view here: [Paddlewheel Stress and Safety Report](https://github.com/irazinkov/Portfolio/blob/master/Stress%20Analysis%20Report.pdf)
+
 </p></details>
 
 **<details><summary>Microfluidics Hardware</summary><p>**
