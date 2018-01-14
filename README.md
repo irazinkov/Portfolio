@@ -14,11 +14,15 @@ Next, a classification algorithm (we call it 'Santa') decides if the grid is "go
 
 **<details><summary>C#</summary><p>**
  
-Software package for controlling the Spotiton robot
+Software package for controlling Spotiton, a robotic liquid dispenser designed for freezing samples for cryo-electron microscopy. The software integrates and automates motion, video processing and logic control to guide the user efficiently through all the necessary steps for preparing a cryo-EM sample.
 
-![](https://github.com/irazinkov/Portfolio/blob/master/grid-qc.PNG)
+Link to publication: [A new method for vitrifying samples for cryoEM](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5464370/) 
 
-- motion control for 6 axies
+Authors: **Ivan Razinkov**, Venkat Dandey, Hui Wei, Zhening Zhang, David Melnekoff, William J. Rice, Christoph Wigge, Clinton S. Potter, and Bridget Carragher
+
+![](https://github.com/irazinkov/Portfolio/blob/master/spotiton%20screencap.png)
+
+ - motion control for 6 axies
  - pneumatic control
  - digital I/O
  - image acquisition
@@ -28,17 +32,21 @@ Software package for controlling the Spotiton robot
  
 **<details><summary>Java</summary><p>**
  
-Software for iDAW control, a system that dynamically changes fluid pressures inside a microfluidic device
+Software for control of a device called DAW, a system that dynamically changes fluid pressures inside a microfluidic device. It is used to dynamically expose cells (bacterial, yeast and mamallian) in a microfluidic device to changing chemical environment. For example, cells could be exposed to a metabolite (sugar), hormone (acyl-homoserine lactone) or even an antibiotic.
  
+Link to publication: [Microfluidics for Synthetic Biology: From Design to Execution](https://www.ncbi.nlm.nih.gov/pubmed/21601093)
+
+Authors: Michael Ferry, **Ivan Razinkov** and Jeff Hasty
+
 Link to project website: [Dial-A-Wave](http://dialawave.wikispaces.com)
 
 ![](https://github.com/irazinkov/Portfolio/blob/master/daw_software.png)
 
- - capable of running up to 12 individual units simulatenously 
+ - capable of running up to 12 individual units simulatenously
  - longterm stable (>90 days)
  - installed in multiple science labs around the world
  - designed for long-term microfluidic experiments for evolution studies in yeast and bacteria
- - 
+ 
  </p></details>
 
 # Hardware Projects
@@ -46,11 +54,15 @@ Link to project website: [Dial-A-Wave](http://dialawave.wikispaces.com)
 
 A novel liquid
 
- ![](https://github.com/irazinkov/Portfolio/blob/master/spotiton.jpg)
+ ![](https://github.com/irazinkov/Portfolio/blob/master/792-100-000%20spotiton%20v1.0%20deck%20assembly.jpg)
+ 
+ ![](https://github.com/irazinkov/Portfolio/blob/master/20150529_110051.jpg)
 </p></details>
 
 **<details><summary>Fluorescence Sensor (w/ lock-in amplification)</summary><p>**
 
+ ![](https://github.com/irazinkov/Portfolio/blob/master/enclosure.PNG)
+ 
  ![](https://github.com/irazinkov/Portfolio/blob/master/fluor3.png)
  -
 </p></details>
@@ -73,5 +85,8 @@ A novel liquid
 
 **<details><summary>Microfluidics Hardware</summary><p>**
 
+Link to project website: [Dial-A-Wave](http://dialawave.wikispaces.com)
+
 ![](https://github.com/irazinkov/Portfolio/blob/master/daw-wikispaces.PNG)
+
 </p></details>
