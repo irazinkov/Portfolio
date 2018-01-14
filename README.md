@@ -1,15 +1,21 @@
 # Portfolio
+<br />
 # Software projects
-## Python
- An example of quality control software written for analyzing nanowire growth on copper cryo-electron microscopy grids.
+##<details><summary>Python</summary><p>##
+An example of quality control software written for analyzing nanowire growth on copper cryo-electron microscopy grids.
 
- ![](https://github.com/irazinkov/Portfolio/blob/master/grid-qc.PNG)
+![](https://github.com/irazinkov/Portfolio/blob/master/grid-qc.PNG)
 
- As part of the manufacturing process of the novel nanowire copper grids, the grids are exposed to a chemical reaction to grow nanowires  directly on the copper surface. Each individual grids is then examined under a light microscope, where the images are taken and automatically processed through this software.
- Custom image analysis code provides provides a individual score for each grid, following a machine learning step of classification into "bad" and "good" grids.
+As part of the manufacturing process of the novel nanowire copper grids, the grids are exposed to a chemical reaction to grow nanowires  directly on the copper surface. Each individual grid is then examined under a light microscope, where the images are taken and automatically processed through this software.
+Custom image analysis code provides provides a individual score for each grid.
+Next, a classification algorithm (we call it 'Santa') decides if the grid is "good" or "bad".
+</p>
+</details>
 
-
-## C#
+##<details><summary>C#</summary><p>##
+ 
+![](https://github.com/irazinkov/Portfolio/blob/master/grid-qc.PNG)
+ 
  Software package for controlling the Spotiton robot
  - motion control for 6 axies
  - pneumatic control
@@ -17,12 +23,16 @@
  - image acquisition
  - video analysis(for motion correction)
  - liquid dispenser control and tuning
+ </p></details>
  
-## Java
- ![](https://github.com/irazinkov/Portfolio/blob/master/daw_software.png)
- Software package for controlling a stepper motor driven fluidic actuator
+##<details><summary>Java</summary><p>##
+
+![](https://github.com/irazinkov/Portfolio/blob/master/daw_software.png)
+
+Software package for controlling a stepper motor driven fluidic actuator
  - capable of running up to 12 individual units simulatenously 
  - longterm stable (>90 days)
+ </p></details>
 
 # Hardware Projects
 ## Spotiton
