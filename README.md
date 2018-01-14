@@ -1,16 +1,16 @@
 # Portfolio
 # Software projects
 ## Python
-An example of quality control software written for analyzing nanowire growth on copper cryo-electron microscopy grids.
+ An example of quality control software written for analyzing nanowire growth on copper cryo-electron microscopy grids.
 
-![](https://i.imgur.com/D6P0c3J.png)
+ ![](https://github.com/irazinkov/Portfolio/blob/master/grid-qc.PNG)
 
-As part of the manufacturing process of the novel nanowire copper grids, the grids are exposed to a chemical reaction to grow nanowires directly on the copper surface. Each individual grids is then examined under a light microscope, where the images are taken and automatically processed through this software.
-Custom image analysis code provides provides a individual score for each grid, following a machine learning step of classification into "bad" and "good" grids.
+ As part of the manufacturing process of the novel nanowire copper grids, the grids are exposed to a chemical reaction to grow nanowires  directly on the copper surface. Each individual grids is then examined under a light microscope, where the images are taken and automatically processed through this software.
+ Custom image analysis code provides provides a individual score for each grid, following a machine learning step of classification into "bad" and "good" grids.
 
 
 ## C#
-Software package for controlling the Spotiton robot
+ Software package for controlling the Spotiton robot
  - motion control for 6 axies
  - pneumatic control
  - digital I/O
@@ -19,18 +19,30 @@ Software package for controlling the Spotiton robot
  - liquid dispenser control and tuning
  
 ## Java
-Software package for controlling a stepper motor driven fluidic actuator
+ ![](https://github.com/irazinkov/Portfolio/blob/master/daw_software.png)
+ Software package for controlling a stepper motor driven fluidic actuator
  - capable of running up to 12 individual units simulatenously 
  - longterm stable (>90 days)
 
 # Hardware Projects
 ## Spotiton
+ ![](https://github.com/irazinkov/Portfolio/blob/master/spotiton.jpg)
 A novel liquid
 ## Fluorescence Sensor (w/ lock-in amplification)
-
+ ![](https://github.com/irazinkov/Portfolio/blob/master/fluor3.png)
+ -
+## Bioluminescence Silicon PhotoMultiplier Sensor 
+![](https://github.com/irazinkov/Portfolio/blob/master/simp_due.png)
+ - Silicon Photomultiplier sensor for detecting single photons emitted by bacteria cultured in microfluidics devices
+ - Solar powered
+ - Intended for use in remote water ways for water supply quality testing
+ - ARM32 core from ATMEL for control of power supply, peristaltic pump, data I/O and logging
+ - Transmits data through WIFI to the internet (planned to have 
+ 
 ## Algae-based Dairy Wastewater Remediation Facility
-
+![]()
 ## Microfluidics Hardware
+![](https://github.com/irazinkov/Portfolio/blob/master/daw-wikispaces.PNG)
 
 
 # Prerequisites
